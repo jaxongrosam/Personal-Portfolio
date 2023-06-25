@@ -9,16 +9,64 @@ body {
 }
 
 header {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  border: 7px solid black;
+  background-color: gray;
   font-family: Arial;
+  margin: 2px auto;
+}
+
+ul {
+  list-style-type: none;
 }
 
 .nav-links {
   display: flex;
   justify-content: center;
+  border: 2px solid black;
+  font-size: large;
 }
 
 .photo {
+  display: flex;
+  justify-content: center;
+  border: 7px solid black;
+  background-color: aqua; 
+}
+
+.about-me {
+  display: flex;
+  border: 7px solid black;
+  background-color: white;
+}
+
+.work {
+  border: 7px solid black;
+  margin-top: 2px;
+  background-color: green; 
+}
+
+.work-section {
+  display: flex;
+  border: 2px solid yellow;
+  margin-right: 750px;
 }
 
 .first-project {
+
+}
+
+.contact {
+  display: flex-center;
+  justify-content: space-around;
+  align-items: center;
+  border: 7px solid black;
+  background-color: darkred;
+  margin-right: 1600px;
+}
+
+.footer {
+  text-align: center;
 }
